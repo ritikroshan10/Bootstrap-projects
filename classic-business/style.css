@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.row{
+    margin: -0px;
+}
+button {
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 100%);
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* 1 */
+.header-bg {
+    background-image: url('./images/headerIMG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.headertrans {
+    background-color: rgba(0, 0, 0, 0.473)
+}
+
+/* 2 */
+.head-content h1 {
+    font-size: 85px;
+}
+
+.head-content p {
+    font-size: 25px;
+}
+
+/* 3 */
+.home h2 {
+    color: rgba(0, 0, 0, 0.707);
+    font-size: 35px;
+}
+
+.home p {
+    color: rgba(0, 0, 0, 0.521);
+}
+
+/* 4 */
+.choose-bg {
+    background-color: #f9f9f9;
+}
+
+.choose-heading {
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.707);
+}
+
+.mission hr {
+    width: 60%;
+    color: rgba(0, 0, 0, 0.227);
+}
+
+.mission label a {
+    color: rgba(0, 0, 0, 0.47);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.choose-para {
+    color: rgba(0, 0, 0, 0.315);
+}
+
+.years-25 {
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 35px;
+}
+
+/* 5 */
+
+.facilities i {
+    font-size: 23px;
+    color: #abd0fd;
+}
+
+.facilities span {
+    color: black;
+    font-size: 19px;
+}
+
+.facilities p,
+.facilities a {
+    color: rgba(0, 0, 0, 0.496);
+}
+
+.facilities a {
+    color: rgba(0, 0, 0, 0.256);
+    font-weight: 600;
+}
+
+.facilities a:hover {
+    text-decoration: underline;
+}
+
+/* 6 */
+.skil-precent {
+    border: 3px solid #a1c4fd;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.skill-text {
+    font-size: 11px;
+    font-weight: 400;
+    padding-top: 3px;
+}
+
+/* 7 */
+.protfolio-nav {
+    padding-left: 150px !important;
+}
+
+.protfolio-nav a {
+    color: black;
+    font-size: 12px;
+}
+
+.protfolio-nav a:hover {
+    text-decoration: underline;
+}
+
+/* 10 */
+.price-main h2 {
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.707);
+    font-weight: 500;
+}
+
+.price-main p {
+    font-size: 50px;
+    padding: 0px 50px;
+    color: rgba(0, 0, 0, 0.604);
+    font-weight: 600;
+}
+
+.price-main label a {
+    color: black;
+}
+
+.price-main label a:hover,
+.price-main span a:hover {
+    text-decoration: underline;
+}
+
+.price-main span a {
+    color: rgba(0, 0, 0, 0.333);
+}
+
+
+.price-content i {
+    color: #acdef5;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.price-content label {
+    color: rgba(0, 0, 0, 0.726);
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+strong {
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 25px;
+}
+
+.price-content span {
+    font-size: 12px;
+}
+
+.price-content ul li {
+    color: rgba(0, 0, 0, 0.485);
+}
+
+.price-content hr {
+    color: rgba(0, 0, 0, 0.162);
+}
+
+/* 11 */
+.blog-intro h2 {
+    color: rgba(0, 0, 0, 0.707);
+}
+
+.blog-intro p {
+    color: rgba(0, 0, 0, 0.536);
+}
+
+.blogcontent-bg {
+    background: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.blogcontent-bg h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.post h4 {
+    color: rgba(0, 0, 0, 0.41);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.post i,
+.post span,
+.post p {
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.post span {
+    font-size: 14px;
+}
+
+.post p {
+    padding-right: 50px;
+}
+
+/* 12 */
+.awards i {
+    color: #acdef5;
+    font-size: 40px;
+}
+
+.awards label {
+    font-size: 19px;
+}
+
+.awards p {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* 13 */
+form input,
+textarea {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.contact h3 {
+    color: rgba(0, 0, 0, 0.688);
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.contact hr {
+    width: 13%;
+}
+
+.social-media {
+    background: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.social-media i {
+    font-size: 25px;
+}
+
+/* footer */
+.foot-content h5 {
+    color: rgba(0, 0, 0, 0.714);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.foot-content p,
+.foot-content li,
+.Copyright p {
+    color: rgba(0, 0, 0, 0.392);
+}
+
+.foot-content i,
+.Copyright i {
+    color: rgba(0, 0, 0, 0.49);
+    font-size: 13px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#navMenu .navbar-nav li a {
+   font-size: 17px !important;
+}
+@media screen and (max-width: 576px) {
+	.post{
+        text-align: center !important;
+    }
+	.foot-link{
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+	.purchase{
+        text-align: center !important;
+    }
+}
