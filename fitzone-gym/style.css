@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+}
+
+/* 1 */
+.headerbg {
+    background-image: url('./images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navtrans {
+    background-color: black;
+}
+
+.content {
+    padding: 480px 0px 0px 500px;
+}
+.bg-trans {
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.content h1 {
+    font-size: 140px;
+}
+.content span{
+    color: red;
+}
+.content p{
+    padding: 30px 0px 30px 300px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.436);
+}
+/* 2 */
+.fitzone h1 {
+    font-size: 170px;
+    font-weight: bold; 
+    background-image: url('./images/formbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.join-intro label{
+    color: red;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.join-intro h3{
+    font-weight: bold;
+    font-size: 33px;
+}
+.join-intro p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.704);
+}
+.imgbg{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px 15px 45px 15px;
+}
+.products h4{
+    font-weight: bold;
+}
+/* 3 */
+.yourSelf{
+    background-image: url('./images/yourself.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.absolute-img{
+    left: 150px;
+    top: 70px;
+}
+.yourself-content h5{
+    font-size: 35px;
+    font-weight: bold;
+}
+.yourself-content p{
+    color: rgba(0, 0, 0, 0.634);
+}
+/* 4 */
+.m-200{
+    margin-top: 200px;
+}
+/* 5 */
+.rating{
+    background-color: #f6f5f1;
+}
+.absolute-imgage{
+    left:140px;
+    top: 50px;
+}
+.rating-content h5{
+    font-weight: bold;
+}
+.rating-content p{
+    color: rgba(0, 0, 0, 0.511);
+}
+.gold i{
+    color:#ffb608;
+}
+.normal i{
+    color: rgba(0, 0, 0, 0.129);
+}
+.circle-icon i{
+    color: rgba(0, 0, 0, 0.295);
+    font-size: 12px;
+}
+/* 6 */
+.form-bg{
+    background-image: url('./images/formbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.weight-form input{
+    background: transparent;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+}
+.weight-form input[type="radio"]{
+    background:rgba(255, 255, 255, 0.638);
+}
+.form-check-label{
+    color: rgba(255, 255, 255, 0.638);
+}
+/* 7 */
+.ourteam span{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.448);
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.ourteam h3{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.ourteam p{
+    color: rgba(0, 0, 0, 0.666);
+    font-size: 14px;
+}
+.ourteam a{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+.ourteam label{
+    color: rgba(0, 0, 0, 0.6);
+}
+/* 8 */
+.trial-bg{
+    background-image: url('./images/yourself.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.trail h3{
+    font-weight: bold;
+    font-size: 35px;
+}
+.trail p{
+    color: rgba(0, 0, 0, 0.573);
+    font-size: 25px;
+    font-weight: 300;
+}
+/* footer */
+footer{
+    background-color: #080a19;
+}
+.foot-content h4{
+    color: white;
+    font-weight: bold;
+}
+.foot-content p,.foot-content a,.foot-content span{
+   color: rgba(255, 255, 255, 0.534);
+   font-weight: 300;
+}
+.foot-content p{
+  font-size: 14px;
+}
+.foot-content a:hover{
+    text-decoration: underline;
+}
+.foot-content button{
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+.copyright p{
+    color: rgba(255, 255, 255, 0.534);
+    font-weight: 300;
+    font-size: 15px;
+}
+.copyright i{
+    color: rgba(255, 255, 255, 0.534);
+}
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+#navMenu .navbar-nav a{
+    color: white;
+    text-align: end;
+}
+/* -----------------------------------------------media query---------------------------- */
+@media screen and (max-width: 576px) {
+    .fitzone h1 {
+        font-size: 70px !important;
+    }
+    .join-intro h3{
+        font-size: 27px;
+    }
+    .calculate{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 992px) {
+	.content{
+        padding: 480px 0px 0px 0px; 
+        text-align: center;  
+    }
+	.content h1 {
+        font-size: 50px;
+      
+    }
+    .content p{
+        padding: 30px 0px 30px 0px;
+     
+    }
+    .fitzone h1 {
+        font-size: 100px;
+    }
+    /* img query 2 */
+    .yourself-img .img-1{
+        width: 420px !important;
+        height: 500px;
+    }
+    .absolute-img{
+        width: 250px !important;
+        height: 500px !important;
+    }
+
+    /* 2nd absolute image */
+    .absolute-imgage{
+        left:-30px;
+        top: 70px;
+    }
+    .absolute-imgage{
+        width: 250px;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* img-query 3 */
+    .yourself-img .img-1{
+        width: 320px !important;
+        height: 500px;
+    }
+    .absolute-img{
+        width: 200px !important;
+        height: 300px !important;
+    }
+    .absolute-img{
+        left: 100px;
+        top: 150px;
+    }
+    .join-intro{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1271px) {
+    .content h1 {
+        font-size: 90px;
+    }
+    .content p{
+        padding: 30px 0px 30px 100px;
+    }
+    /* img query-1 */
+    .yourself-img .img-1{
+        width: 500px;
+        height: 500px;
+    }
+    .absolute-img{
+        width: 300px;
+        height: 450px;
+    }
+}
