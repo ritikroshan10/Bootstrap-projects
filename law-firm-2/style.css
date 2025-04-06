@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #bea34d;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: #bea34d;
+    color: white;
+    cursor: pointer;
+}
+i{
+    color: #bea34d;
+}
+/* section-1 */
+.logo span{
+    color: black;
+}
+nav ul li{
+    font-size: 11px;
+    font-weight: 400;
+}
+.apponitbtn button{
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+/* section-2 */
+.headerbg{
+    background-image: url('./images/headerIMG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headertrans{
+    background: rgba(0, 0, 0, 0.638);
+}
+.head-content{
+    padding: 230px 230px;
+}
+.head-content p{
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 20px;
+}
+.head-content a{
+    font-size: 20px;
+}
+.head-content button{
+    background-color: #31486f;
+    border-radius: 30px;
+}
+/* 3 */
+.service-info{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.legalServices{
+    background-color: #415f92;
+}
+.legalServices label,.callNow label{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.legalServices p,.callNow p{
+  color:#778081;
+  font-size: 20px;
+}
+.callNow{
+    background-color: #31486f;
+}
+.callNow a{
+    font-size: 20px;
+}
+
+/* 4 */
+.gallery-content{
+    padding: 200px 0px;
+}
+.gallery-content i{
+    font-size: 80px;
+}
+.gallery-content label{
+    font-size: 30px;
+    font-weight: 600;
+}
+.gallery-content p{
+   color: rgba(255, 255, 255, 0.514);
+}
+/* 5 */
+.videos h1{
+    font-weight: 400;
+}
+.videos p{
+    color:rgba(0, 0, 0, 0.558);
+}
+/* 6 */
+.textHeading{
+    color: #31486f;
+    font-weight: 400;
+}
+.textPara{
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.practice-area i{
+    color: #31486f;
+    font-size: 50px;
+}
+.practice-area label{
+    color: #31486f;
+    font-size: 25px;
+    font-weight: 400;
+}
+.practice-area p{
+  color: rgba(0, 0, 0, 0.63);
+  padding-right: 20px;
+  padding-top: 15px;
+}
+.rounded-pill:hover{
+    background-color: red;
+}
+
+/* 7 */
+.experiencebg{
+  background-color: #4c4c4c;
+}
+.text-h1{
+    color: white;
+    font-size: 50px;
+}
+.text-p{
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.46);
+}
+.experiencebg button{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* 8 */
+.client{
+    padding: 150px 0px;
+}
+
+.client i{
+  font-size: 10px;
+}
+
+.client h1{
+    color: #4c4c4c;
+    font-weight: 400;
+}
+
+.client p{
+    color: rgba(0, 0, 0, 0.547);
+}
+.client span{
+    color:#828282;
+    font-size: 19px;
+    font-weight: 500;
+}
+.client a{
+    font-size: 19px;
+    font-weight: 500;  
+}
+
+.active i{
+    color: #415f92;
+}
+
+/* 9 */
+.formbg{
+    background-color: #31486f;
+}
+
+.form-padding{
+    padding: 40px 40px;
+}
+form input,textarea{
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.105) !important;
+    margin-bottom: 20px;
+}
+/* 10 */
+.recentPost,.attorneys{
+    padding: 100px 0px;
+}
+.police label{
+    color: #31486f;
+    font-size: 30px;
+}
+.recent label{
+    color: #31486f;
+    font-size: 21px;
+}
+
+/* 11 */
+.attorneys label{
+    font-size: 25px;
+    color: #31486f;
+}
+
+/* 12 footer */
+
+footer{
+    background-color: #0b162a;
+}
+.foot{
+    padding: 155px 0px;
+}
+.foot label{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 22px;
+}
+
+.foot p,.foot a{
+    color: #828276;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.foot a:hover{
+    text-decoration: underline;
+}
+.copyright a{
+    color: #bea34d;
+}
+.copyright a:hover{
+    text-decoration: underline;
+}
+.copyright i{
+    font-size: 20px;
+}
+/* mobile responsive nav*/
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+#navMenu .navbar-nav a{
+    color:#bea34d;
+    text-align: end;
+    font-weight: 600;
+    font-size: 16px;
+}
+.navbar-toggler{
+    background-color: #bea34d;
+    border-radius: 20px;
+    padding-left: 10px 25px;
+}
+
+/* ------------------------------------------media queries---------------------------------------- */
+/* -------------------768px----------------- */
+@media screen and (max-width: 768px) {
+    .head-content{
+        padding: 45px 45px;
+    }
+    .practice-area .border-end-0{
+        border-right: 1px solid rgba(0, 0, 0, 0.107) !important;
+        border-bottom: none !important;
+    }
+    .client{
+        padding: 80px 20px;
+    }
+    .recentPost{
+        padding: 60px 10px;
+    }
+    .attorneys{
+        padding-top: 0px;
+    }
+   
+}
+/* -------------------992px----------------- */
+@media screen and (max-width: 992px) {
+    .foot{
+        padding: 50px 10px;
+    }
+}
+/* -------------------576px----------------- */
+@media screen and (max-width: 576px) {
+    .service-info{
+        margin-top: -0px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .foot label{
+        padding-bottom: 10px;
+    }
+}
+/* -------------------1460px----------------- */
+@media screen and (max-width: 1460px) {
+   .recent .col-xl-9 label,.recent .col-xl-9 span,.recent .col-xl-9 p{
+      padding-left: 25px;
+   }
+}
+/* -------------------1200px----------------- */
+@media screen and (max-width: 1200px) {
+   .recent .col-xl-9 label,.recent .col-xl-9 span,.recent .col-xl-9 p{
+      padding-left: 0px;
+   }
+   .col-xl-3 img{
+    width: 200px;
+    height: 150px;
+   }
+}
