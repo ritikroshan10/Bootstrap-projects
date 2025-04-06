@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Shop</title>
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- js cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- 1 -->
+        <section class="bg-dark text-light">
+            <div class="container">
+                <div class="row nav">
+                    <div class="col-3 text-center d-none d-lg-block py-1">
+                        <div class="">
+                            <span><i class="fas fa-phone"></i></span>
+                            <label class="ps-2">+ 1235 2355 98</label>
+                        </div>
+                    </div>
+                    <div class="col-3 text-center d-none d-lg-block py-1">
+                        <span><i class="fas fa-paper-plane"></i></span>
+                        <label class="ps-2">YOUREMAIL@EMAIL.COM</label>
+                    </div>
+                    <div class="col-6 text-center d-none d-lg-block py-1">
+                        <label>3-5 BUSINESS DAYS DELIVERY &amp; FREE RETURNS</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2 -->
+        <section class="headerbg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 py-2 logo">
+                        <a href="">
+                            <h4>Minishop</h4>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <nav class="d-none d-lg-block">
+                            <ul class="d-inline-flex  pt-2 mx-auto">
+                                <li class="px-2"><a href="" class="pe-3">HOME</a></li>
+                                <li class="px-2"><a href="" class="pe-3">CATLOG</a></li>
+                                <li class="px-2"><a href="" class="pe-3">ABOUT</a></li>
+                                <li class="px-2"><a href="" class="pe-3">BLOG</a></li>
+                                <li class="px-2"><a href="" class="pe-3">CONTACT</a></li>
+                                <li class="px-2"><a href="" class="pe-3"><i class="fas fa-luggage-cart"></i> [0]</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="row navbar navbar-expand-lg navbar-light m-0 d-lg-none">
+                            <div class="d-flex justify-content-end w-100">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navMenu">
+                                    <div class="navbar-toggler-icon"></div>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navMenu">
+                                <ul class="navbar-nav mt-3">
+                                    <li class="nav-item text-end">
+                                        <a href="#" class="nav-link">Home</a>
+                                    </li>
+                                    <li class="nav-item text-end">
+                                        <a href="#" class="nav-link ">CATLOG</a>
+                                    </li>
+                                    <li class="nav-item text-end">
+                                        <a href="#" class="nav-link ">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item text-end">
+                                        <a href="#" class="nav-link ">BLOG</a>
+                                    </li>
+                                    <li class="nav-item text-end">
+                                        <a href="#" class="nav-link">CONTACT</a>
+                                    </li>
+                                    <li class="nav-item text-end">
+                                        <a href="#" class="nav-link"><i class="fas fa-luggage-cart"></i> [0]</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="row py-lg-5">
+                    <div class="col-sm-5 py-lg-5 collection">
+                        <div class="py-5">
+                            <label class="bg-dark text-light"> &nbsp; #New Arrival &nbsp;</label>
+                            <h1>Shoes Collection <br> 2019</h1>
+                            <p class="py-md-3">A small river named Duden flows by their place and supplies it with the
+                                necessary regelialia. It is a paradisematic country.</p>
+                            <button type="button" class="text-light px-4 py-2">Discover Now</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 bannerIMG pt-5">
+                        <img src="./images/bannerIMG.png" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- 3 -->
+        <div class="container py-5">
+            <div class="row py-md-5 text-center service">
+                <div class="col-md-4">
+                    <div><i class="fas fa-suitcase-rolling"></i></div>
+                    <div>
+                        <h5 class="py-4">Free Shipping</h5>
+                        <p class="pe-5">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia,
+                            there live the blind texts.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-4 pt-md-0">
+                    <div><i class="fas fa-user-tie"></i></div>
+                    <div>
+                        <h5 class="py-4">Support Customer</h5>
+                        <p class="pe-5">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia,
+                            there live the blind texts.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-4 pt-md-0">
+                    <div><i class="fas fa-credit-card"></i></i></div>
+                    <div>
+                        <h5 class="py-4">Secure Payments</h5>
+                        <p class="pe-5">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia,
+                            there live the blind texts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 4 -->
+        <section class="arrival">
+            <div class="container py-5">
+
+                <div class="pt-lg-5">
+                    <div class="text-center ArrivalHeading">
+                        <h1>New Shoes Arrival</h1>
+                        <p class="py-3">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia</p>
+                    </div>
+
+                    <div class="row pb-3">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="p-3 imgbg">
+                                <img src="./images/shoes1.png" alt="image" width="100%">
+                            </div>
+
+                            <div class="bg-white">
+                                <div class="p-3">
+                                    <div class="px-3">
+                                        <span class="spantext">LIFESTYLE</span>
+                                    </div>
+                                    <div class="px-3 star">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="py-2">
+                                        <h6>NIKE FREE RN 2019 ID</h6>
+                                        <p class="mb-0">$120.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 mt-5 mt-sm-0">
+                            <div class="p-3 imgbg">
+                                <img src="./images/shoes2.png" alt="image" width="100%">
+                            </div>
+
+                            <div class="bg-white">
+                                <div class="p-3">
+                                    <div class="px-3">
+                                        <span class="spantext">LIFESTYLE</span>
+                                    </div>
+                                    <div class="px-3 star">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="py-2">
+                                        <h6>NIKE FREE RN 2019 ID</h6>
+                                        <p class="mb-0">$120.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 mt-5 mt-lg-0">
+                            <div class="p-3 imgbg">
+                                <img src="./images/shoes3.png" alt="image" width="100%">
+                            </div>
+
+                            <div class="bg-white">
+                                <div class="p-3">
+                                    <div class="px-3">
+                                        <span class="spantext">LIFESTYLE</span>
+                                    </div>
+                                    <div class="px-3 star">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="py-2">
+                                        <h6>NIKE FREE RN 2019 ID</h6>
+                                        <p class="mb-0">$120.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 mt-5 mt-lg-0">
+                            <div class="p-3 imgbg">
+                                <img src="./images/shoes4.png" alt="image" width="100%">
+                            </div>
+
+                            <div class="bg-white">
+                                <div class="p-3">
+                                    <div class="px-3">
+                                        <span class="spantext">LIFESTYLE</span>
+                                    </div>
+                                    <div class="px-3 star">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="py-2">
+                                        <h6>NIKE FREE RN 2019 ID</h6>
+                                        <p class="mb-0">$120.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row pt-4 pt-lg-3">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="p-3 imgbg">
+                                <img src="./images/shoes5.png" alt="image" width="100%">
+                            </div>
+
+                            <div class="bg-white">
+                                <div class="p-3">
+                                    <div class="px-3">
+                                        <span class="spantext">LIFESTYLE</span>
+                                    </div>
+                                    <div class="px-3 star">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="py-2">
+                                        <h6>NIKE FREE RN 2019 ID</h6>
+                                        <p class="mb-0">$120.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 mt-5 mt-sm-0">
+                            <div class="p-3 imgbg">
+                                <img src="./images/shoes6.png" alt="image" width="100%">
+                            </div>
+
+                            <div class="bg-white">
+                                <div class="p-3">
+                                    <div class="px-3">
+                                        <span class="spantext">LIFESTYLE</span>
+                                    </div>
+                                    <div class="px-3 star">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="py-2">
+                                        <h6>NIKE FREE RN 2019 ID</h6>
+                                        <p class="mb-0">$120.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 mt-5 mt-lg-0">
+                            <div class="p-3 imgbg">
+                                <img src="./images/shoes7.png" alt="image" width="100%">
+                            </div>
+
+                            <div class="bg-white">
+                                <div class="p-3">
+                                    <div class="px-3">
+                                        <span class="spantext">LIFESTYLE</span>
+                                    </div>
+                                    <div class="px-3 star">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="py-2">
+                                        <h6>NIKE FREE RN 2019 ID</h6>
+                                        <p class="mb-0">$120.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 mt-5 mt-lg-0">
+                            <div class="p-3 imgbg">
+                                <img src="./images/shoes8.png" alt="image" width="100%">
+                            </div>
+
+                            <div class="bg-white">
+                                <div class="p-3">
+                                    <div class="px-3">
+                                        <span class="spantext">LIFESTYLE</span>
+                                    </div>
+                                    <div class="px-3 star">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="py-2">
+                                        <h6>NIKE FREE RN 2019 ID</h6>
+                                        <p class="mb-0">$120.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- section 5 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 px-0">
+                    <div class="menbg">
+                        <div class="menstrans">
+                            <div class="text-center text-light mens-content">
+                                <h6>MEN'S SHOES</h6>
+                                <h3>Men's Collection</h3>
+                                <p class="pe-4">Separated they live in Bookmarksgrove right at the coast of the
+                                    Semantics, a large
+                                    language ocean.</p>
+                                <button type="button" class="text-light px-4 py-2 bg-dark rounded-pill">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 px-0">
+                    <div class="womenbg">
+                        <div class="women-trans">
+                            <div class="text-light women-content">
+                                <h6>WOMEN'S SHOES</h6>
+                                <h3>Women's Collection</h3>
+                                <p class="text-light">Separated they live in Bookmarksgrove right at the coast of the
+                                    Semantics, a large language ocean.</p>
+                                <button type="button" class="text-light px-4 py-2 bg-dark rounded-pill">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row px-0">
+                        <div class="col-sm-6 px-0">
+                            <div class="p-5 text-center">
+                                <h6>SUMMER SALE</h6>
+                                <h3>Extra 50% Off</h3>
+                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                                    language ocean..</p>
+                                <button type="button" class="text-light px-4 py-2 bg-dark  rounded-pill">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6  px-0">
+                            <div class="sellersbg">
+                                <div class="sellerstrans">
+                                    <div class="p-5	text-center text-light">
+                                        <h6>SHOES</h6>
+                                        <h6>
+                                        </h6>
+                                        <h3>Best Sellers</h3>
+                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                                            large language ocean..</p>
+                                        <button type="button" class="text-light px-4 py-2 bg-dark rounded-pill">Shop
+                                            Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 6 -->
+        <div class="dealhistory-bg">
+            <div class="container py-md-5">
+                <div class="row pt-5">
+
+                    <div class="col-sm-6">
+                        <img src="./images/dealshoes.png" alt="image" width="100%">
+                    </div>
+
+                    <div class="col-sm-6 p-3">
+                        <div class="text-white">
+                            <h5>DEAL OF THE MONTH</h5>
+                            <h1>Deal of the month</h1>
+
+                            <div class="row py-3">
+                                <div class="col-3">
+                                    <h4>175</h4>
+                                    <label class="">DAYS</label>
+                                </div>
+                                <div class="col-3">
+                                    <h4>23</h4>
+                                    <label class="">HOURS</label>
+                                </div>
+                                <div class="col-3">
+                                    <h4>05</h4>
+                                    <label class="">MINUTES</label>
+                                </div>
+                                <div class="col-3">
+                                    <h4>40</h4>
+                                    <label class="">SECONDS</label>
+                                </div>
+                            </div>
+
+                            <div class="text-dark">
+                                <h2>Nike Free RN 2019 iD</h2>
+                                <span class="text-dark py-2">$120.00</span>
+                                <span class="text-white py-2">$80.00</span>
+                            </div>
+
+                            <div>
+                                <ul class="d-inline-flex ps-0">
+                                    <li><img src="./images/shoes1.png" alt="image loading occur" width="60%"></li>
+                                    <li><img src="./images/shoes2.png" alt="image loading occur" width="60%"></li>
+                                    <li><img src="./images/shoes3.png" alt="image loading occur" width="60%"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 7 -->
+        <div class="container py-5">
+            <div class="row py-4 py-lg-5">
+
+                <div class="col-lg-5">
+
+                    <div class="bg-1 p-4">
+                        <div class="row">
+                            <div class="float-left w-25 text-center">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <div class="float-right w-75">
+                                <h5>Free Shipping</h5>
+                                <p>Separated they live in. A small river named Duden flows</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-2 p-4">
+                        <div class="row">
+                            <div class="float-left w-25 text-center">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <div class="float-right w-75">
+                                <h5>Valuable Gifts</h5>
+                                <p>Separated they live in. A small river named Duden flows</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-3 p-4">
+                        <div class="row">
+                            <div class="float-left w-25 text-center">
+                                <i class="far fa-address-card"></i>
+                            </div>
+                            <div class="float-right w-75">
+                                <h5>All Day Support</h5>
+                                <p>Separated they live in. A small river named Duden flows</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-4 p-4 bg-dark">
+                        <div class="row">
+                            <div class="float-left w-25 text-center">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="float-right w-75">
+                                <h5 class="text-light">All Day Support</h5>
+                                <p class="bg-4-p">Separated they live in. A small river named Duden flows</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 pt-5 pt-lg-0">
+                    <h1>Our satisfied customer says</h1>
+                    <p class="py-3 pe-5">
+                        Far far away, behind the word mountains,
+                        far from the countries Vokalia and Consonantia,
+                        there live the blind texts. Separated they live in
+                    </p>
+
+                    <div>
+                        <img src="./images/person1.png" alt="iamge" class="rounded-circle" width="100px" height="100px">
+                        <p class="py-3 img-para">
+                            Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                    </div>
+
+                    <div class="customer-satisfy-foot">
+                        <h5>Garreth Smith</h5>
+                        <label>System Analyst</label>
+                        <div class="py-3 py-lg-5">
+                            <span class="py-5">
+                                <i class="fas fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 8 -->
+        <div class="container">
+            <div class="text-center">
+                <h1>Follow Us On Instagram</h1>
+                <p class="py-4">
+                    Far far away, behind the word mountains,
+                    far from the countries Vokalia and Consonantia,
+                    there live <br> the blind texts. Separated they live in
+                </p>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 px-0">
+                    <img src="./images/img1.png" alt="image" width="100%" height="80%">
+                </div>
+                <div class="col-2 px-0">
+                    <img src="./images/img2.png" alt="image" width="100%" height="80%">
+                </div>
+                <div class="col-2 px-0">
+                    <img src="./images/img3.png" alt="image" width="100%" height="80%">
+                </div>
+                <div class="col-2 px-0">
+                    <img src="./images/img4.png" alt="image" width="100%" height="80%">
+                </div>
+                <div class="col-2 px-0">
+                    <img src="./images/img5.png" alt="image" width="100%" height="80%">
+                </div>
+                <div class="col-2 px-0">
+                    <img src="./images/img6.png" alt="image" width="100%" height="80%">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container pb-5">
+            <div class="row py-5 foot-content">
+                <div class="col-lg-3  col-sm-6 py-2 center-sm">
+                    <h6 class="text-light">MINISHOP</h6>
+                    <p class="py-3 pe-4">Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia.</p>
+                    <div>
+                        <span class="px-3"><i class="fab fa-twitter"></i></span>
+                        <span class="px-3"><i class="fab fa-facebook-f"></i></span>
+                        <span class="px-3"><i class="fab fa-instagram"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 py-2 center-sm">
+                    <h6 class="text-light pt-5 pt-sm-0">MINISHOP</h6>
+                    <ul class="py-3 ps-0">
+                        <li class="pb-3">Shop</li>
+                        <li class="pb-3">About</li>
+                        <li class="pb-3">Journal</li>
+                        <li class="pb-3">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3  col-sm-6 py-2 center-sm">
+                    <h6 class="text-light">Help</h6>
+                    <ul class="py-3 ps-0">
+                        <li class="pb-3"><a href="">Shipping Information</a></li>
+                        <li class="pb-3"><a href="">FAQs</a></li>
+                        <li class="pb-3"><a href="">Return &amp; Exchange</a></li>
+                        <li class="pb-3"><a href="">Contac</a></li>
+                        <li class="pb-3"><a href="">Terms &amp; Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6 py-2 center-sm">
+                    <h6 class="text-light pt-4 pt-sm-0">HAVE A QUESTIONS?</h6>
+                    <div class="py-3">
+
+                        <div class="row">
+                            <div class="float-left w-10 px-0">
+                                <label class="px-0"><i class="fas fa-map-marker-alt"></i></label>
+                            </div>
+                            <div class="float-right w-90 px-0">
+                                <span class="px-0">203 Fake St. Mountain View, San Francisco, <br> California,
+                                    USA</span>
+                            </div>
+                        </div>
+
+                        <div class="row py-2">
+                            <div class="float-left w-10 px-0">
+                                <label class="px-0"><i class="fas fa-phone"></i></label>
+                            </div>
+                            <div class="float-right w-90 px-0">
+                                <span class="px-0">+2 392 3929 210</span>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="float-left w-10 px-0">
+                                <label class="px-0"><i class="fas fa-envelope"></i></label>
+                            </div>
+                            <div class="float-right w-90 px-0">
+                                <span class="px-0"> info@yourdomain.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p class="text-center">Copyright ©2019 All rights reserved | This template is made with
+                    <i class="fas fa-heart"></i> by <a href="">Colorlib</a>
+                </p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
