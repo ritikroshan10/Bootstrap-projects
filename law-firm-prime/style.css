@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+/* navigation */
+.logo a {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+ul li a {
+    font-size: 12px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: #b99566;
+}
+
+.active:hover {
+    color: #b99566;
+    text-decoration: underline;
+}
+
+/*section-2 */
+.headerbg {
+    background-image: url('./images/bgIMG2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headertrans {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header-content button {
+    color: rgba(255, 255, 255, 0.408);
+    background: transparent;
+    font-weight: 300;
+    padding: 15px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.556);
+}
+
+.header-content h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.701);
+}
+
+.header-content p {
+    color: rgba(255, 255, 255, 0.44);
+    text-align: justify;
+    padding-right: 60px;
+    padding-block: 15px;
+    margin-top: 20px;
+}
+
+/* 3 */
+.maintrans {
+    background-color: white;
+}
+
+.formhead {
+    background-color: #b99566;
+    padding: 40px 0px;
+    margin-top: -117.7px;
+}
+
+.formhead h3 {
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0px 10px;
+    color: #4a3c3e;
+}
+
+.f1 {
+    width: 300px;
+    background-color: f8f9fa;
+    padding: 30px 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: rgba(202, 198, 198, 0.116);
+    width: 100%;
+}
+
+input,
+textarea,
+form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.189);
+    padding: 5px 15px;
+}
+
+.f1 button {
+    background-color: #b99566;
+}
+
+svg {
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    background-color: #b995666a;
+    border-radius: 50%;
+    color: #b99566;
+}
+
+.overview div {
+    color: #b99566;
+}
+
+.overview a {
+    color: #b99566;
+    text-decoration: underline;
+    font-weight: 300;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 3px;
+}
+
+.overview i {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.overview p {
+    line-height: 1.8;
+}
+
+/* 4 */
+.factsbg {
+    background-image: url('./images/factsIMG1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.factstrans {
+    background-color: rgba(0, 0, 0, 0.704);
+}
+
+.p-90 {
+    padding-block: 90px;
+}
+
+.facts h4 {
+    color: white;
+    font-size: 35px;
+}
+
+.facts p {
+    color: rgba(255, 255, 255, 0.603);
+}
+
+/* 5 */
+.peopleHelp label,
+.satisfy label {
+    color: #b99566;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* 6 */
+.meetpara-1 {
+    border: 1px solid rgba(0, 0, 0, 0.177);
+    border-bottom: none;
+    border-top: none;
+}
+
+.meetpara-2-3 {
+    border: 1px solid rgba(0, 0, 0, 0.177);
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+}
+
+.satisfy i {
+    font-size: 9px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.315);
+}
+
+.arrow {
+    font-size: 15px !important;
+}
+
+.satisfy i.active {
+    color: #b99566;
+}
+
+/* section-7 */
+.workwayBg {
+    background-color: #f1eae0;
+}
+
+/* 8 */
+.workdata {
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    border-radius: 40px;
+    background-color: white;
+    margin-top: -40px;
+}
+
+.workdata span {
+    color: #b99566;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.workdata label {
+    color: black;
+    font-size: 18px;
+}
+
+/* 9 */
+.attorneys label {
+    color: #b99566;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.attorneys h2 {
+    font-weight: 400;
+}
+
+.attorneys p {
+    color: rgba(0, 0, 0, 0.652);
+    font-weight: 300;
+}
+
+/* 10 */
+.person-attorneys label {
+    color: #b99566;
+    font-size: 17px;
+}
+
+.person-attorneys span {
+    font-size: 20px;
+}
+
+.person-attorneys p {
+    color: rgba(0, 0, 0, 0.578);
+}
+
+/* 11 */
+.caseStudy a {
+    color: rgba(0, 0, 0, 0.386);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.caseStudy a:hover {
+    color: rgba(0, 0, 0, 0.386);
+    text-decoration: underline;
+}
+
+.cs-img-para p {
+    font-size: 20px;
+    color: #495057;
+}
+
+/* 12 */
+.mapHead label {
+    color: #b99566;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.mapHead h2 {
+    font-weight: 400;
+}
+
+.MapContent h4 {
+    color: #495057;
+    font-weight: 350;
+}
+
+.MapContent label {
+    color: #495057b1;
+    font-weight: 700;
+}
+
+.MapContent span {
+    color: rgba(0, 0, 0, 0.503);
+}
+
+.MapContent span a {
+    color: #b9956666;
+    font-weight: 300;
+}
+
+/* 13 */
+.footbg {
+    background-color: #141313;
+}
+
+.foot-content h5 {
+    color: white;
+}
+
+.socialmedia i {
+    color: white;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.foot-content a {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.552);
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 8px;
+}
+
+.foot-content a:hover {
+    color: rgba(0, 0, 255, 0.714);
+}
+
+.copyright p,
+.foot-content p {
+    color: rgba(255, 255, 255, 0.552);
+    font-weight: 300;
+}
+
+.contact-icon i {
+    color: white;
+    font-size: 17px;
+}
+
+/* -------------------------mobile responsive--------------- */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#navMenu .navbar-nav a {
+    color: black;
+    text-align: end;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ------------------------------media query------------------------ */
+@media screen and (max-width: 992px) {
+    .formhead {
+        margin-top: -0px;
+        margin-top: 18px;
+    }
+
+    .text-end {
+        text-align: start !important;
+    }
+
+    .text-end .col-10 {
+        padding-right: 0px !important;
+    }
+
+    .text-end .col-2 {
+        padding-left: 2px !important;
+    }
+
+    .socialmedia i {
+        font-size: 20px;
+    }
+
+    .contact-icon i {
+        font-size: 20px;
+    }
+    .contact-icon label {
+        padding-right: 0px !important;
+    }
+
+    .contact-icon span {
+        padding-left: 0px !important;
+        text-align: start;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .facts .col-sm-3 {
+        text-align: center;
+    }
+
+    .facts .col-md-4 {
+        text-align: center;
+    }
+
+    .p-90 {
+        padding-block: 45px;
+    }
+
+    .peopleHelp img {
+        height: 340px;
+    }
+
+    .satisfy .col-sm-4 {
+        text-align: center;
+    }
+
+    .workdata {
+        margin-top: -0px;
+        margin-top: 20px;
+        border-radius: 20px;
+
+    }
+
+}
