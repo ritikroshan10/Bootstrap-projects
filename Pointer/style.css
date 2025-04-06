@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+/*header */
+header {
+    background-image: url('./images/headerBG\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headertrans {
+    background-color: rgba(0, 0, 0, 0.263);
+}
+
+.heading a {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navigation a:hover {
+    color: white;
+}
+
+nav ul a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-content h1 {
+    padding-top: 40px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.header-content p {
+    color: rgba(255, 255, 255, 0.885);
+}
+
+.start-btn {
+    padding-bottom: 150px !important;
+}
+
+.start-btn button {
+    background-color: #505288;
+}
+
+/* 2 */
+.poster span {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.726);
+    font-weight: 600;
+}
+
+.poster p {
+    font-weight: 300;
+}
+
+.poster button {
+    background-color: #505288;
+}
+
+.ab-skill {
+    bottom: -45px;
+    right: 70px;
+}
+
+/* 3 */
+.dedication h1,
+.agency h1,
+.approach h1,
+.services h1 {
+    color: #e81050;
+    font-weight: bold;
+}
+
+.dedication p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.prof-bg {
+    background-color: #f0f0f0;
+}
+
+.prof-bg p {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+/* 4 */
+.agency {
+    padding: 80px 60px;
+}
+
+.agency label {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.595);
+}
+
+.agency p {
+    color: rgba(0, 0, 0, 0.529);
+}
+
+/* 5 */
+.approach-content span {
+    color: #e81050;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.approach-content p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* 6 */
+.services {
+    background-color: #f0f0f0;
+}
+
+.services i {
+    font-size: 35px;
+    color: #e81050;
+}
+
+.services label {
+    color: rgba(0, 0, 0, 0.597);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.services p {
+    color: rgba(0, 0, 0, 0.525);
+    font-size: 17px;
+}
+
+.services a {
+    color: #e81050;
+}
+
+/* 7 */
+.testimonials h1 {
+    color: #e81050;
+    font-weight: bold;
+}
+
+.testimonials p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.573);
+}
+
+.image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.image span {
+    color: rgba(0, 0, 0, 0.359);
+}
+
+.icons i {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.127);
+}
+
+.first {
+    color: #e81050 !important;
+}
+
+/* 8 */
+.consulting-agency h1 {
+    color: #e81050;
+    font-weight: bold;
+}
+
+.consulting-agency i {
+    font-size: 40px;
+    color: #e81050;
+}
+
+.consulting-agency label {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.519);
+    font-weight: 500;
+}
+
+.consulting-agency p {
+    color: rgba(0, 0, 0, 0.573);
+}
+
+.consulting-agency a {
+    color: #e81050;
+}
+
+.ab-btn button {
+    background-color: #e81050;
+    color: white;
+    padding: 20px 45px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.ab-btn {
+    bottom: -35px;
+    left: 250px;
+}
+
+/* 10 */
+.blog-intro {
+    color: #e81050;
+}
+
+.blog-intro h6 {
+    font-size: 13px;
+}
+
+.blog-intro h1 {
+    font-weight: bold;
+}
+
+.blog-main a {
+    color: #e81050;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.blog-main span,
+.blog-main label {
+    color: rgba(0, 0, 0, 0.282);
+    font-size: 14px;
+}
+
+.blog-main span a {
+    font-size: 14px;
+}
+
+.blog-main p {
+    color: rgba(0, 0, 0, 0.573);
+}
+
+/* 11 */
+.contact-bg {
+    background-color: #f8f9fa;
+}
+
+form textarea {
+    border-radius: 20px 20px 20px 20px !important;
+}
+
+form button {
+    background-color: #e81050;
+}
+
+.contact label {
+    color: rgba(0, 0, 0, 0.564);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contact p {
+    color: rgba(0, 0, 0, 0.573);
+    font-size: 18px;
+}
+
+.contact a {
+    color: #e81050;
+}
+
+/* footer */
+footer {
+    background-color: #333333;
+}
+
+.Copyright p,
+.Copyright a,
+.foot-content p,
+.foot-content a,
+.foot-content li a {
+    color: rgba(255, 255, 255, 0.355);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.foot-content input {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.437) !important;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.foot-content button {
+    left: 100%;
+    top: 0%;
+    background-color: #e81050;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+/* moblie navigation */
+.navbar-toggler {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px 40px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#navMenu .navbar-nav a {
+    color: white;
+    text-align: end;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* ------------------media query--------------- */
+
+
+@media screen and (max-width: 1200px) {
+    .agency{
+        padding: 0px 20px;
+    }
+    .ab-btn {
+        bottom: 0px;
+        left: 200px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .ab-skill {
+        bottom: -170px;
+        right: 0px;
+    }
+    .ab-btn {
+       top: 230px;
+        left: 150px;
+    }
+    .dedication{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .start-btn {
+        padding-bottom: 0px !important;
+    }
+    .header-content h1 {
+        padding-top: 0px;
+    }
+    .approach{
+        text-align: center;
+    }
+    .approach-content{
+        text-align: center;
+    }
+    .ab-btn {
+        top: 230px;
+         left: 140px;
+     }
+}
+@media screen and (max-width: 576px) {
+    .consulting-agency .pt-md-5{
+        text-align: center;
+    }
+    .consulting-agency h1{
+        text-align: center;
+    }
+    .ab-btn {
+        top: 180px;
+         left: 130px;
+     }
+}
