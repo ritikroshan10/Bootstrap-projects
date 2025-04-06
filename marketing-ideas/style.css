@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: white;
+    color: black;
+    font-weight: 500;
+}
+
+/* 1 */
+.nav-trans {
+    background-color: #343a40;
+}
+
+/* 2 */
+.home-bg {
+    background-image: url('./images/headerBG\ \(1\).png');
+    background-repeat: no-repeat;
+}
+
+.home-bg button {
+    border-radius: 5px;
+}
+
+.home-bg p {
+    font-size: 17px;
+}
+
+/* 3 */
+.facility-bg {
+    background-color: #e74c3c;
+}
+
+.facility-bg i {
+    color: white;
+    font-size: 40px;
+}
+
+.facility-bg h5 {
+    font-weight: 400;
+}
+
+.facility-bg p {
+    font-weight: 500;
+}
+
+/* 4 */
+.customer-bg {
+    background-image: url('./images/centerBG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position-absolute {
+    top: 180px;
+    left: 650px;
+}
+
+/* 5 */
+.features h3 span {
+    color: #e74c3c;
+    font-weight: 400;
+}
+
+.features h5 {
+    color: #c0392b;
+}
+
+.features p {
+    color: rgba(0, 0, 0, 0.307);
+    font-weight: 500;
+}
+
+/* 6 */
+.playstore {
+    background-image: url('./images/headerBG\ \(1\).png');
+    background-repeat: no-repeat;
+}
+
+.column1,
+.column3 {
+    padding-top: 150px;
+}
+
+.column1 h3 {
+    font-weight: 500;
+}
+
+.column3 p {
+    text-align: justify;
+}
+
+/* 7 */
+.gb-1,
+.gb-2,
+.gb-3,
+.gb-4 {
+    border-radius: 8px;
+}
+
+.gb-1 {
+    background-color: #2490ca;
+}
+
+.gb-2 {
+    background-color: #c0392b;
+}
+
+.gb-3 {
+    background-color: #d35400;
+}
+
+.gb-4 {
+    background-color: #8e44ad;
+}
+
+.validity span {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.348);
+    font-weight: 500;
+    padding-bottom: 2px;
+}
+
+/* 8 */
+.contact {
+    background-image: url('./images/map.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact h4 {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+.form-content h5 {
+    color: #c0392b;
+    font-weight: 600;
+}
+
+.form-content p {
+    color: rgba(0, 0, 0, 0.378);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.form-content input,
+.form-content textarea {
+    background-color: #f0f0f0;
+    border: none !important;
+    border-radius: 0px 0px 0px 0px !important;
+}
+
+.form-content button {
+    background-color: #cc181e;
+    border-radius: 5px;
+}
+
+.icons i {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.453);
+}
+
+/* footer */
+footer {
+    background-color: #343a40;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.749);
+    margin-bottom: 0px;
+}
+
+/* mobile responsive nav */
+.navbar-toggler {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 10px 25px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#navMenu .navbar-nav a {
+    color: white;
+    text-align: end;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* --------------------media query------------------------ */
+
+@media screen and (max-width: 1400px) {
+    .position-absolute {
+        top: 270px;
+        left: 450px;
+    }
+
+    .column1,
+    .column3 {
+        padding-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 993px) {
+    .position-absolute {
+        top: 50px;
+        left: 280px;
+    }
+
+    .features h3 {
+        text-align: center;
+    }
+    .nav-trans img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .customer-bg h1 {
+        font-size: 25px;
+    }
+
+    .position-absolute {
+        width: 45% !important;
+        top: 20px;
+        left: 160px;
+    }
+
+    .rounded-circle {
+        width: 150px;
+        height: 150px;
+    }
+    .hand-phone-img{
+        width: 70%;
+    }
+    footer .text-end{
+        text-align: center !important;
+    }
+    .nav-trans img{
+       padding-top: 13px;
+    }
+
+}
