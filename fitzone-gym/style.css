@@ -230,6 +230,10 @@ footer{
     color: white;
     text-align: end;
 }
+/* placeholder error color */
+.placeholder-error::placeholder {
+    color: red;
+}
 /* -----------------------------------------------media query---------------------------- */
 @media screen and (max-width: 576px) {
     .fitzone h1 {
@@ -239,6 +243,14 @@ footer{
         font-size: 27px;
     }
     .calculate{
+        text-align: center;
+    }
+    #suscribe{
+        width: 100%;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .equipment{
         text-align: center;
     }
 }
@@ -252,48 +264,17 @@ footer{
       
     }
     .content p{
-        padding: 30px 0px 30px 0px;
+        padding: 30px 0px 30px 0px; 
      
     }
     .fitzone h1 {
         font-size: 100px;
-    }
-    /* img query 2 */
-    .yourself-img .img-1{
-        width: 420px !important;
-        height: 500px;
-    }
-    .absolute-img{
-        width: 250px !important;
-        height: 500px !important;
-    }
-
-    /* 2nd absolute image */
-    .absolute-imgage{
-        left:-30px;
-        top: 70px;
-    }
-    .absolute-imgage{
-        width: 250px;
     }
     .copyright{
         text-align: center;
     }
 }
 @media screen and (max-width: 768px) {
-    /* img-query 3 */
-    .yourself-img .img-1{
-        width: 320px !important;
-        height: 500px;
-    }
-    .absolute-img{
-        width: 200px !important;
-        height: 300px !important;
-    }
-    .absolute-img{
-        left: 100px;
-        top: 150px;
-    }
     .join-intro{
         margin-top: 0px;
     }
