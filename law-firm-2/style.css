@@ -1,253 +1,306 @@
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 17px;
 }
-li{
+
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: #bea34d;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
 
-button{
+button {
     border: none;
     outline: none;
     background-color: #bea34d;
     color: white;
     cursor: pointer;
 }
-i{
+
+i {
     color: #bea34d;
 }
+
+.row {
+    margin: -0px;
+}
+
 /* section-1 */
-.logo span{
+.logo span {
     color: black;
 }
-nav ul li{
+
+nav ul li {
     font-size: 11px;
     font-weight: 400;
 }
-.apponitbtn button{
+
+.apponitbtn button {
     padding: 10px 20px;
     border-radius: 40px;
 }
 
 /* section-2 */
-.headerbg{
+.headerbg {
     background-image: url('./images/headerIMG.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.headertrans{
+
+.headertrans {
     background: rgba(0, 0, 0, 0.638);
 }
-.head-content{
+
+.head-content {
     padding: 230px 230px;
 }
-.head-content p{
+
+.head-content p {
     color: rgba(255, 255, 255, 0.534);
     font-size: 20px;
 }
-.head-content a{
+
+.head-content a {
     font-size: 20px;
 }
-.head-content button{
+
+.head-content button {
     background-color: #31486f;
     border-radius: 30px;
 }
+
 /* 3 */
-.service-info{
+.service-info {
     margin-top: -30px;
     margin-bottom: 30px;
 }
 
-.legalServices{
+.legalServices {
     background-color: #415f92;
 }
-.legalServices label,.callNow label{
+
+.legalServices label,
+.callNow label {
     font-size: 30px;
     margin-bottom: 8px;
 }
-.legalServices p,.callNow p{
-  color:#778081;
-  font-size: 20px;
+
+.legalServices p,
+.callNow p {
+    color: #778081;
+    font-size: 20px;
 }
-.callNow{
+
+.callNow {
     background-color: #31486f;
 }
-.callNow a{
+
+.callNow a {
     font-size: 20px;
 }
 
 /* 4 */
-.gallery-content{
+.gallery-content {
     padding: 200px 0px;
 }
-.gallery-content i{
+
+.gallery-content i {
     font-size: 80px;
 }
-.gallery-content label{
+
+.gallery-content label {
     font-size: 30px;
     font-weight: 600;
 }
-.gallery-content p{
-   color: rgba(255, 255, 255, 0.514);
+
+.gallery-content p {
+    color: rgba(255, 255, 255, 0.514);
 }
+
 /* 5 */
-.videos h1{
+.videos h1 {
     font-weight: 400;
 }
-.videos p{
-    color:rgba(0, 0, 0, 0.558);
+
+.videos p {
+    color: rgba(0, 0, 0, 0.558);
 }
+
 /* 6 */
-.textHeading{
+.textHeading {
     color: #31486f;
     font-weight: 400;
 }
-.textPara{
+
+.textPara {
     color: rgba(0, 0, 0, 0.63);
 }
 
-.practice-area i{
+.practice-area i {
     color: #31486f;
     font-size: 50px;
 }
-.practice-area label{
+
+.practice-area label {
     color: #31486f;
     font-size: 25px;
     font-weight: 400;
 }
-.practice-area p{
-  color: rgba(0, 0, 0, 0.63);
-  padding-right: 20px;
-  padding-top: 15px;
+
+.practice-area p {
+    color: rgba(0, 0, 0, 0.63);
+    padding-right: 20px;
+    padding-top: 15px;
 }
-.rounded-pill:hover{
+
+.rounded-pill:hover {
     background-color: red;
 }
 
 /* 7 */
-.experiencebg{
-  background-color: #4c4c4c;
+.experiencebg {
+    background-color: #4c4c4c;
 }
-.text-h1{
+
+.text-h1 {
     color: white;
     font-size: 50px;
 }
-.text-p{
+
+.text-p {
     font-size: 22px;
     color: rgba(255, 255, 255, 0.46);
 }
-.experiencebg button{
+
+.experiencebg button {
     font-size: 18px;
     font-weight: 500;
 }
 
 /* 8 */
-.client{
+.client {
     padding: 150px 0px;
 }
 
-.client i{
-  font-size: 10px;
+.client i {
+    font-size: 10px;
 }
 
-.client h1{
+.client h1 {
     color: #4c4c4c;
     font-weight: 400;
 }
 
-.client p{
+.client p {
     color: rgba(0, 0, 0, 0.547);
 }
-.client span{
-    color:#828282;
+
+.client span {
+    color: #828282;
     font-size: 19px;
     font-weight: 500;
 }
-.client a{
+
+.client a {
     font-size: 19px;
-    font-weight: 500;  
+    font-weight: 500;
 }
 
-.active i{
+.active i {
     color: #415f92;
 }
 
 /* 9 */
-.formbg{
+.formbg {
     background-color: #31486f;
 }
 
-.form-padding{
+.form-padding {
     padding: 40px 40px;
 }
-form input,textarea{
+
+form input,
+textarea {
     background: transparent !important;
     border: none !important;
     outline: none !important;
     border: 1px solid rgba(255, 255, 255, 0.105) !important;
     margin-bottom: 20px;
 }
+
 /* 10 */
-.recentPost,.attorneys{
+.recentPost,
+.attorneys {
     padding: 100px 0px;
 }
-.police label{
+
+.police label {
     color: #31486f;
     font-size: 30px;
 }
-.recent label{
+
+.recent label {
     color: #31486f;
     font-size: 21px;
 }
 
 /* 11 */
-.attorneys label{
+.attorneys label {
     font-size: 25px;
     color: #31486f;
 }
 
 /* 12 footer */
 
-footer{
+footer {
     background-color: #0b162a;
 }
-.foot{
+
+.foot {
     padding: 155px 0px;
 }
-.foot label{
+
+.foot label {
     color: white;
     font-size: 25px;
     padding-bottom: 22px;
 }
 
-.foot p,.foot a{
+.foot p,
+.foot a {
     color: #828276;
     font-size: 18px;
     line-height: 1.5;
 }
-.foot a:hover{
+
+.foot a:hover {
     text-decoration: underline;
 }
-.copyright a{
+
+.copyright a {
     color: #bea34d;
 }
-.copyright a:hover{
+
+.copyright a:hover {
     text-decoration: underline;
 }
-.copyright i{
+
+.copyright i {
     font-size: 20px;
 }
-/* mobile responsive nav*/
+
+/*-------------------------- mobile responsive nav*/
 .navbar-toggler {
     border: none;
 }
@@ -255,69 +308,118 @@ footer{
 .navbar-toggler:focus {
     box-shadow: none;
 }
-#navMenu .navbar-nav a{
-    color:#bea34d;
+
+#navMenu .navbar-nav a {
+    color: #bea34d;
     text-align: end;
     font-weight: 600;
     font-size: 16px;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     background-color: #bea34d;
     border-radius: 20px;
     padding-left: 10px 25px;
 }
 
+/* placeholder error color */
+.placeholder-error::placeholder {
+    color: red;
+}
+
 /* ------------------------------------------media queries---------------------------------------- */
+
+
+
+
+
+/* -------------------1460px----------------- */
+@media screen and (max-width: 1460px) {
+
+    .recent .col-xl-9 label,
+    .recent .col-xl-9 span,
+    .recent .col-xl-9 p {
+        padding-left: 25px;
+    }
+
+    .form-padding {
+        padding: 10px 10px;
+    }
+}
+
+/* -------------------1200px----------------- */
+@media screen and (max-width: 1200px) {
+
+    .recent .col-xl-9 label,
+    .recent .col-xl-9 span,
+    .recent .col-xl-9 p {
+        padding-left: 0px;
+    }
+
+    .col-xl-3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .recentPost {
+        padding: 60px 10px;
+    }
+
+    .attorneys {
+        padding-top: 0px;
+    }
+    .head-content {
+        padding: 150px 70px;
+    }
+}
+
+/* -------------------992px----------------- */
+@media screen and (max-width: 992px) {
+    .foot {
+        padding: 50px 10px;
+    }
+}
 /* -------------------768px----------------- */
 @media screen and (max-width: 768px) {
-    .head-content{
-        padding: 45px 45px;
-    }
-    .practice-area .border-end-0{
+   
+
+    .practice-area .border-end-0 {
         border-right: 1px solid rgba(0, 0, 0, 0.107) !important;
         border-bottom: none !important;
     }
-    .client{
+
+    .client {
         padding: 80px 20px;
     }
-    .recentPost{
-        padding: 60px 10px;
-    }
-    .attorneys{
-        padding-top: 0px;
-    }
-   
-}
-/* -------------------992px----------------- */
-@media screen and (max-width: 992px) {
-    .foot{
-        padding: 50px 10px;
+
+    .gallery-content {
+        padding: 100px 0px;
     }
 }
 /* -------------------576px----------------- */
 @media screen and (max-width: 576px) {
-    .service-info{
+    .service-info {
         margin-top: -0px;
-        margin-bottom: 10px;
-        margin-top: 20px;
+        margin-bottom: 0px;
     }
-    .foot label{
+    .head-content {
+        padding: 45px 45px;
+    }
+    .foot label {
         padding-bottom: 10px;
     }
-}
-/* -------------------1460px----------------- */
-@media screen and (max-width: 1460px) {
-   .recent .col-xl-9 label,.recent .col-xl-9 span,.recent .col-xl-9 p{
-      padding-left: 25px;
-   }
-}
-/* -------------------1200px----------------- */
-@media screen and (max-width: 1200px) {
-   .recent .col-xl-9 label,.recent .col-xl-9 span,.recent .col-xl-9 p{
-      padding-left: 0px;
-   }
-   .col-xl-3 img{
-    width: 200px;
-    height: 150px;
-   }
+
+    .ppxx-0 {
+        padding-inline: 0px;
+    }
+
+    .client {
+        padding: 50px 10px;
+    }
+    .ppee-l{
+        padding-left: 0px;
+    }
+    .ppss-r{
+        padding-right: 0px;
+    }
 }
