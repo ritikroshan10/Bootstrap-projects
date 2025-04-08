@@ -1,0 +1,121 @@
+@media screen and (max-width:1400px) {
+    .programdetails {
+        padding: 70px 50px;
+    }
+    .teacher4 p {
+        padding: 10px 400px;
+    }
+    .Graduates {
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .admissionform form {
+        margin-left: 30px;
+        padding: 50px 55px;
+    }
+    .boxcontent {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .teacher4 p {
+        padding: 10px 330px;
+    }
+    .Graduates {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .Programs p,
+    .facultiy p {
+        padding: 0px 70px;
+    }
+
+    .Programs {
+        margin-block: 50px;
+    }
+    .programdetails {
+        padding: 0px 50px 100px 50px;
+    }
+    .facultiy {
+        margin-block: 0px;
+        margin-bottom: 100px;
+    }
+    .teacher4 p {
+        padding: 10px 250px;
+    }
+    .footlink{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .headercontent {
+        padding: 40px 0 60px 0px;
+    }
+    .m-100{
+        margin-top: 100px;
+    }
+    .teacher4 p {
+        padding: 10px 150px;
+    }
+    .Graduates-img{
+        height: 600px;
+    }
+    .footlink{
+        text-align: start;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .admissionform form {
+        margin-left: 0px;
+    }
+
+    .admissionform form {
+        width: 300px;
+    }
+
+    .course {
+        height: 200px;
+    }
+    .teacher4 p {
+        padding: 10px 70px;
+    }
+    .teacher4 {
+        margin-block: 70px;
+    }
+    .Graduates {
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 360px;
+        height: 390px;
+        padding-top:10px 0px 0px 0px;
+    } 
+    .Graduates i {
+    margin-left: 10px;
+}
+.Graduates-img{
+    height: 500px;
+}
+#messagebtn {
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+}
+
+/* @media screen and (max-width:992px) {
+    .admissionform {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .head-content{
+        text-align: center;
+    }
+  } */

@@ -1,0 +1,361 @@
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 17px;
+}
+p{
+    color: rgba(0, 0, 0, 0.405);
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-underline-offset: 5px;
+}
+li{
+    list-style: none;
+}
+.row{
+    margin: -0px;
+}
+
+button {
+    background-color: #7971ea;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* header background */
+.headerbg {
+    background-image: url('./images/headerimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header transparent */
+.headerTrans {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* header navigation */
+.headernav {
+    padding: 20px 0px;
+}
+
+/* oneschool */
+.oneSchool a {
+    font-size: 28px;
+}
+
+/* one school hover */
+.oneSchool:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+/*  navigation list hover effect */
+.headernav ul li a:hover {
+    text-decoration: underline;
+
+}
+
+/* contactbtn */
+.contactbtn {
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.contactbtn:hover {
+    background-color: #4c42da;
+}
+
+/* header content */
+.headercontent {
+    padding: 100px 0px;
+}
+
+.headercontent h1 {
+    color: white;
+}
+.headercontent p{
+    color: rgba(255, 255, 255, 0.39);
+}
+
+/* admission btn */
+.admissionbtn {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+.admissionform form {
+    background-color: white;
+    padding: 60px 65px;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.admissionform form span {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.admissionform form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+}
+
+.signbtn {
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+/* course section */
+.course {
+    background-color: #7971ea;
+    text-align: center;
+    height: 300px;
+}
+
+.course h2 {
+    color: white;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+/* programs */
+.Programs {
+    margin-block: 100px;
+}
+
+.Programs h1,
+.Programs p {
+    text-align: center;
+}
+
+.Programs h1 {
+    margin-bottom: 20px;
+}
+
+.Programs p,
+.facultiy p {
+    padding: 0px 250px;
+}
+
+/* program details */
+.programcontainer {
+    margin-bottom: 100px;
+}
+
+.programdetails {
+    padding: 70px 100px;
+}
+
+.programdetails label {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.programdetails span {
+    display: inline-block;
+    color: rgba(0, 0, 255, 0.468);
+    padding: 5px 10px;
+}
+
+/* faculity */
+.facultiy {
+    margin-block: 100px;
+}
+
+.facultiy h1,
+.facultiy p {
+    text-align: center;
+}
+
+.box {
+    border: 1px solid rgba(0, 0, 0, 0.168);
+    text-align: center;
+}
+
+.img img {
+   margin-top: -70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.boxcontent {
+    display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.boxcontent label {
+    font-size: 20px;
+}
+
+.boxcontent span {
+    color: rgba(0, 0, 0, 0.301);
+}
+
+.boxcontent p {
+    color: rgba(0, 0, 0, 0.544);
+    padding: 20px;
+}
+
+/* fourth teacher */
+.teacher4 {
+    text-align: center;
+    margin-block: 110px;
+}
+
+.teacher4 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.teacher4 label {
+    color: white;
+}
+
+.teacher4 p {
+    padding: 10px 500px;
+    color: white;
+}
+
+/* why you choose us */
+.ChooseHead {
+    text-align: center;
+    margin-block: 50px;
+}
+
+.Graduates {
+    margin-top: 50px;
+    line-height: 50px;
+    color: black;
+    box-shadow: 5px 8px 10px 5px #888888;
+    margin-left: 130px;
+    width: 400px;
+    height: 400px;
+    padding-top: 40px;
+}
+
+.Graduates i {
+    margin-left: 40px;
+    margin-right: 10px;
+    color: #4c42dac2;
+    font-size: 25px;
+}
+
+/* message */
+.meassagebg {
+    background-color: rgba(152, 149, 149, 0.044);
+}
+.messagecontent h2{
+    font-size: 40px;
+}
+.formcol form input,.formcol form textarea{
+    width: 100%;
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.405);
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    border-radius: 5px;
+} 
+#messagebtn {
+    padding: 10px 60px;
+    border-radius: 25px;
+}
+/* footer */
+
+.foot_contact label{
+	position: relative;
+}
+.foot_contact input{
+	border: none;
+	padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+	background-color:transparent;
+	width: 100%;
+    border-radius: 5px 0px 0px 5px;
+}
+.foot_contact button{
+	border: none;
+	padding: 8px;
+	color: white;
+	font-size: 15px;
+	position: absolute;
+    border-radius: 0px 5px 5px 0px;
+	top: 0%;
+	bottom: 0%;
+	left: 100%;
+}
+.footlink ul{
+    padding: 0;
+}
+.footlink ul li{
+    list-style: none;
+}
+.footlink ul li a{
+    color: rgba(0, 0, 255, 0.545);
+}
+.foot-para p{
+    color: rgba(0, 0, 0, 0.488); 
+}
+
+
+
+.Copyright{
+    text-align: center;
+}
+.Copyright p i{
+    color: rgba(0, 0, 0, 0.616);
+}
+.Copyright p{
+    color: rgba(0, 0, 0, 0.616);
+} 
+.Copyright span{
+    color: rgba(0, 0, 255, 0.447); 
+}
+
+
+/* mobile nav bar */
+.navbar-toggler {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px 40px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#navMenu .navbar-nav a {
+    color: white;
+    text-align: end;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+/* placeholder error message */
+.placeholder-error::placeholder {
+    color: red;
+}
