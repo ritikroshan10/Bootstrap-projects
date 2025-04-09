@@ -273,6 +273,10 @@ footer{
     .copyright{
         text-align: center;
     }
+    .absolute-imgage{
+        left:10px;
+        top: 50px;
+    }
 }
 @media screen and (max-width: 768px) {
     .join-intro{
