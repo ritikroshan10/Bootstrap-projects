@@ -224,6 +224,9 @@ footer{
     .women-content{
         padding: 55px 40px 90px 100px;
     }
+    .fluid-img img{
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -236,4 +239,8 @@ footer{
     .bg-1 i,.bg-2 i,.bg-3 i,.bg-4 i{
         font-size: 50px;
     } 
+    .ppxx-0{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
