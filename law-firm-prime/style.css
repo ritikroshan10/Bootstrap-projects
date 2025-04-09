@@ -366,6 +366,11 @@ svg {
     font-size: 16px;
 }
 
+/* placeholder error color */
+.placeholder-error::placeholder {
+    color: red;
+}
+
 /* ------------------------------media query------------------------ */
 @media screen and (max-width: 992px) {
     .formhead {
